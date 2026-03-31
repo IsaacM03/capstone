@@ -1388,6 +1388,9 @@ Your capstone, //(print: $Capstone)//, was the final chapter of a story four yea
 There was never a perfect path — only the one you built, choice by choice.
 
 **The End.**
+
+{(set: $award_count to 0)(if: $outstanding_freshman is true)[(set: $award_count to $award_count + 1)](if: $outstanding_sophmore is true)[(set: $award_count to $award_count + 1)](if: $outstanding_junior is true)[(set: $award_count to $award_count + 1)]}//Hidden Achievements: (print: $award_count)/3//
+
 [[Credits]] 
 &lt;audio src =&quot;https://raw.githubusercontent.com/IsaacM03/capstone-audio/main/commencement.wav&quot;autoplay&gt;</tw-passagedata><tw-passagedata pid="78" name="Student Support Center" tags="" position="2000,1700" size="100,100">You haven&#39;t been doing great lately. The stress has been building up, and honestly — it&#39;s okay to admit that. One of your professors noticed you seemed off and gently suggested you stop by the Student Support Center.
 
@@ -1616,8 +1619,6 @@ But this chapter is closed.
 //You collapsed somewhere between the dining hall and Dr. Ford&amp;#39;s office, and that was that.//
 
 ---
-
-🪦
 
 **[ R.I.P. ]**
 
